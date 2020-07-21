@@ -1,0 +1,29 @@
+.menu{
+    background-color: #d31717;
+}
+
+.menu ul{
+    text-align: right;
+    list-style: none;
+    padding-right: 3%;
+    border-bottom: 1px solid #000;
+}
+
+.menu ul img{
+    float: left;
+    margin-left: 43%;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.menu ul li:hover{
+    background-color: #f51e1e;
+    text-transform: capitalize;
+}

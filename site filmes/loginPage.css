@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    background-image: url(backgroundImage.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginPage{
+    background-color: #272525;
+    border: 2px solid #0d0d0d;
+    border-radius: 5%;
+    margin-top: 13%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+#loginPage form{
+    margin-top: 12%;
+}
+
+#loginPage form h1{
+    margin-bottom: 20%;
+}
+
+#loginPage form label{
+    color: #d64747;
+    font-weight: bold;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+#loginPage form input{
+    margin-bottom: 10%;
+    margin-top: 1%;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    outline: none;
+    opacity: 0.8;
+    width: 93%;
+}
+
+.buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.buttons button{
+    margin-top: 5%;
+    padding: 1% 4%;
+    border: 0;
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #be2323;
+    border: 1px solid #f4f4f4;
+    color: #f4f4f4;
+}

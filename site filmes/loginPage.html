@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <title>MovieScreen - Login</title>
+        <link rel="stylesheet" href="menuStyle.css"/>
+        <link rel="stylesheet" href="loginPage.css"/>
+        <link rel="stylesheet" href="footer.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav class="menu">
+                <ul>
+                    <a href="index.html"><img class src="headerLogo.png"/></a>
+                    <a href="index.html"><li>Home</li></a>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div id="loginPage">
+
+                <form action="/page-process-data-from-form" name="login" method="GET">
+
+                        <h1>Access to MovieScreen</h1>
+                    
+                        <p><label for="emailValue">E-mail: </label><br><input type="email" name="tEmail" id="emailValue" size="40" maxlength="60" placeholder="example@example.com.br"/></p>
+
+                        <p><label for="passwordValue">Password: </label><br><input type="password" name="tPassword" id="passwordValue" size="20" maxlength="16" minlength="8" placeholder="Password"/></p>
+                        
+
+                        <div class="buttons">
+                            <button type="submit">Login</button>
+                            <button type="reset">Clean</button>
+                        </div>
+
+
+                </form>
+
+            </div>
+        
+        </main>
+
+        <footer>
+            <small>
+                &copy; Copyright MovieScreen 2020 - All Rights Reserved
+            </small>
+        </footer>
+
+    </body>
+
+</html>
